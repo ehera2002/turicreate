@@ -37,6 +37,32 @@ feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 
 쿼리로 아래의 이미지 추출<br>
 <img src="https://lh5.googleusercontent.com/GLpmJro4uMLY4MijMiR9T_jz0tgGDmuH8RxNSVdRFAZKBsf9psOfJLMjl7EibVQSbNXOPJvzKe0I_E-_9mQT1CQ35Djk-FmQYq23ngnteQqCHPUTMpG7HoCUFEczoEHVzNR3DHHI">
 
+물체 탐지<br>
+물체를 분류하고 위치를 찾는 작업, 주어진 이미지에 박스 바운딩과 물체 클래스를 제시<br>
+<img src="https://lh6.googleusercontent.com/l1EP49zjVCHZYhzTDUj_6gBf3JHQ_FF2W4p72pBz7kVwQyExsJEQvmYLOXSy3yGey1JyiE4llaWaD4ZKSQv6a58OQBcwS_a9TT8_03I6Au5AHzaEnM2pOPfd8LCbLU-T8TkgJQbQ">
+
+원샷 물체 탐지<br>
+클래스별 적은 양의 데이터로 플랜카드, 표지판, 로고 등 2차원 이미지에 대해 빠른 성능 보여줄 수 있는 물체 탐지<br>
+\* 얼굴, 동물, 차와 같은 3차원 데이터는 위의 물체 탐지가 더욱 적합
+<img src="https://lh3.googleusercontent.com/ncnjglHxfuvBw2xIWDlwx4F2UEuN0NF5Iezi8gSce8fNEqhQ4cUXJrXYKAgrhwLL1KPuC1jGf7aSAAjc1_CdSBh6_nx7Pp98iOu9YmjEK-EZr2KiWag4fwSHKStLAxQIjzipvKo_"><br>
+
+\비교
+
+|   |원샷 물체 탐지|투샷(위치, 분류) 물체 탐지|
+|---|---|---|
+|장점|높은 실시간성|높은 정확도|
+|단점|정확도는 투샷 물체 탐지에 비해 낮음|학습과 테스트 속도 느림|
+
+[* 출처 및 참고자료](https://mickael-k.tistory.com/24)
+
+스타일 변경<br>
+스타일 이미지를 구성하고 새로운 이미지가 주어졌을 때 새 이미지의 컨텐츠는 보존하면서 스타일을 변환시켜주는 작업<br>
+
+스타일 이미지와 컨텐츠 이미지<br>
+<img src="https://lh4.googleusercontent.com/khwL_2z8W7jTJZTsE9MS_tVkOzpDVP126RYWD6mNs94jUHccjHqs21IqtZvneEqVazCOD9DpQoVbYmYd9N4UzcxKc71AZJt2G8jCnfgAS6Ecp24RfQHivTUnVtFhP8SfH_c05qfB"><img src="https://lh6.googleusercontent.com/Vk9Fdqh07x94JYnwooDzH838sYhggu19SjbZ6BAw0okq1IGmy9jwUKSokae_3CUn0sVDdDPJWzQ5h-6dvO03J3kPIXlFmm7VCWaCEBI8EyEmd61ZAws8fd1aWiuWlB9xNosYAXhm"><br>
+변환된 이미지<br>
+<img src="https://lh3.googleusercontent.com/puMKhoyM57nfQeAplbS9Hh_z7swu6Ab4qaBKdHoPPbGN6KwTORn7EuAFJ7KXouBrUdaUf18bbEeXtufAvi-G_UFVRisfqtahz96mfDRzYcqPBpXx1gxC3h9n6L-UrGMqTVWc49NO">
+
 ## turicreate algorithm application in social network app
 
 Recommender
