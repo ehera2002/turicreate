@@ -1,11 +1,19 @@
 # turicreate
 turicreate 사용법 및 기능 설명
 
-## turicreate 설치
-[WSL, Linux distro을 이용한 turicreate 설치 for Windows](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
+## turicreate 설치 for Windows
+[WSL, Linux distro을 이용한 turicreate 설치](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
 + [GUI를 이용한 WSL, distro 설치](https://webdir.tistory.com/541)
 + [--use-feature=2020-resolver 에러 관련 해결법](https://stackoverflow.com/questions/63277123/what-is-use-feature-2020-resolver-error-message-with-jupyter-installation-on)
 + [turicreate interactive visualization not working 해결법](https://github.com/apple/turicreate/issues/2154)
+
+추가 문제 해결
+- [How to do plotting on WSL (Windows Subsystem Linux)](https://discourse.julialang.org/t/how-to-do-plotting-on-wsl-windows-subsystem-linux/32812)
+- [Show matplotlib plots (and other GUI) in Ubuntu (WSL1 & WSL2)](https://stackoverflow.com/questions/43397162/show-matplotlib-plots-and-other-gui-in-ubuntu-wsl1-wsl2)
+
+추가자료
+- [WSL 소개](https://webdir.tistory.com/540)
+- [MS wsl 설치 가이드](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ## turicreate algorithm application in social network app
 
