@@ -80,7 +80,7 @@ feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 
   - 레스토랑, 영화 리뷰: 사람들이 열광하는 부분 실망하는 부분 분석<br>
     <img src="https://lh3.googleusercontent.com/sLstr2VIQrwFR2Q-uCH9bjfs298yTOgBAGxzgXdOGT62_E1nFkXQyLf4GEmv8fA5KFjJqGt3mk4bmJ0JEt_St1cp6BRshptB0eXczfzaylNrW5oYWo-Nnzm0cThjRxXolneF2PDo">
   - 소셜 미디어: 회사, 정치인 등 Hashtag에 대한 감성분석 + 블로그 댓글 분석으로 타겟 방문자의 감성 분석<br>
-    <img src="https://lh5.googleusercontent.com/YPegIhOaJK9HTUpslnfhIlYnI-2KJ_ll2W2vmfUYfcxtjBsOjczACMRMQbRWxDfL5OdT70Wu9OH53BWjWVYFPAwGIYbVhL9uwVg12KcJlB0GmMC-zyd4qOOO4nyvjRMnVFwooKC0"><img src="https://lh6.googleusercontent.com/3s394t1Y4qu3PiTvoUzjbUcrf9WWTVFabr6N2c6j8_P8GXRY3Gw-2xa1gxOFAsp25fcy-_zgVH3Bn0QnfLqfl-mA0l0PcXFRYICbZ_UdkGYkJHJvkcYcLGi1BC7Cvck1pgp4xBtm"><br>
+    <img src="https://lh5.googleusercontent.com/YPegIhOaJK9HTUpslnfhIlYnI-2KJ_ll2W2vmfUYfcxtjBsOjczACMRMQbRWxDfL5OdT70Wu9OH53BWjWVYFPAwGIYbVhL9uwVg12KcJlB0GmMC-zyd4qOOO4nyvjRMnVFwooKC0" width=250><img src="https://lh6.googleusercontent.com/3s394t1Y4qu3PiTvoUzjbUcrf9WWTVFabr6N2c6j8_P8GXRY3Gw-2xa1gxOFAsp25fcy-_zgVH3Bn0QnfLqfl-mA0l0PcXFRYICbZ_UdkGYkJHJvkcYcLGi1BC7Cvck1pgp4xBtm"><br>
   - 콜센터 통화내역: 고객이 선호하거나 불만을 가지는 토픽에 대한 분석<br>
     <img src="https://lh3.googleusercontent.com/_C6pM-zeffiek-XyvagoaUZJEbXO0cwK8AYdR23xjEsY_5aZGu5ymvkIMK0VJ5t424sNlYDBDHcKtHBzgVbTTdHcUT_sPWZI6Z_1YADU0s0wTKOGhkz3JiM9sYNwQoK4wdJzlxj8">
   
