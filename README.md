@@ -15,6 +15,24 @@ turicreate 사용법 및 기능 설명
 - [WSL 소개](https://webdir.tistory.com/540)
 - [MS wsl 설치 가이드](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
+## turicreate task focused toolkit 
+
+추천시스템<br>
+유저에게 개인화 추천을 제공할 수 있음, 과거 행동(interaction) 데이터를 통해서 모델링하고 모델을 활용할 수 있음<br>
+<img src="https://lh5.googleusercontent.com/t1prsTMIOdSbVkByBOE6hZCb_TGl1MHp5YrdERASFAuh4y-7fy7GupYw6NHJlyxyswXx68kf4n3IYlFC5ILiAKXepBEmAIRSEH3msVtHXKfNirk6dWnF-MA0f459evSC4U4YrDPt"><br>
+[* 출처 및 참고자료](https://davinci-ai.tistory.com/12)
+
+**Image**
+이미지 분류<br>
+이미지를 기존에 정의한 몇몇의 라벨에 할당하는 작업, turicreate에서 쉽고 강력한 모델을 제공<br>
+<img src="https://lh6.googleusercontent.com/-q-IUA_QiOVBliMtAOmlIB5lE9NYLohlCCFTsHwBZ2gJD0mFU8qZKDzmisfo0ItEstQ92cjldGqsJojPeaZq1Wtp2w2x7oqPELtSaYEFwMVlENRRTSNURO-ze9qFRrSDh9Oz2crT"><br>
+
+그림 분류<br>
+애플 펜슬, 마우스, 터치 인풋으로 주어진 그림에 대해 미리 설정한 클래스로 데이터를 분류할 수 있음<br>
+<img src="https://lh5.googleusercontent.com/lvG7O-Ogal-aFDxwrUakIgJH3oME5NQhfuKF7n3V1ANUDzXMcWJrVuvey_HCDA9uZ2tqu2xkGGMBmH3DHfHqkrojXQXT2qzOls_GE3XPd8tV5DPhI43QT8jDJ-ThcbBpfjVaizwr">
+쿼리로 아래의 이미지 추출<br>
+<img src="https://lh5.googleusercontent.com/GLpmJro4uMLY4MijMiR9T_jz0tgGDmuH8RxNSVdRFAZKBsf9psOfJLMjl7EibVQSbNXOPJvzKe0I_E-_9mQT1CQ35Djk-FmQYq23ngnteQqCHPUTMpG7HoCUFEczoEHVzNR3DHHI">
+
 ## turicreate algorithm application in social network app
 
 Recommender
