@@ -63,6 +63,31 @@ feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 
 변환된 이미지<br>
 <img src="https://lh3.googleusercontent.com/puMKhoyM57nfQeAplbS9Hh_z7swu6Ab4qaBKdHoPPbGN6KwTORn7EuAFJ7KXouBrUdaUf18bbEeXtufAvi-G_UFVRisfqtahz96mfDRzYcqPBpXx1gxC3h9n6L-UrGMqTVWc49NO">
 
+- 사운드 분류<br>
+주어진 사운드(ex. wav파일)를 할당된 라벨에 분류하는 작업 * 음성 인식(speech recognition)과는 다른 작업<br>
+<img src="https://lh5.googleusercontent.com/fL8E-u0lMgB5p1RPl6V8ftbU4CMH0DGoLbrUTVKkGljUIaL6ikX-MFse_SiaKdOA4yxZ4B8zTlPWHwO6suOLu50_od9h6yTphbUrf6UHNd7RfbnePQuWt8jNeKdz5t8cYnF28rxD">
+
+- 행동 분류<br>
+가속도계, 방향과 각도의 변화에 대한 속도, 온도 등 센서 데이터로 학습하여 동작을 감지하는 작업, 특정 제스처로 메시지 읽기, 전화걸기 등으로 응용 가능<br>
+<img src="https://lh3.googleusercontent.com/lvTsAu4ZZ71MqG2ovZw775mVcoNwXy3zcTzByOe_QF2PNcoKeSMe-RQvQLUS5SCGxKMwAATxAx01GKHadvQNm604OUg2LAeOQ46Dnwtg4QapdGWjdItqeE4GltTy7x5iWVMpux5S"><br>
+\* 데이터(motion-sensory input) 예시
+[* 참고자료](https://medium.com/skafosai/activity-classification-with-create-ml-coreml3-and-skafos-part-1-8f130b5701f6)
+
+- 텍스트 분류<br>
+감성 분석과 같은 업무에 주로 사용되고, 사용자의 요구와 상품 및 서비스가 일치하는지 분석할 수 있음<br>
+  - 포럼 리뷰 데이터: 다양한 상품과 특징에 대해 사람들이 어떻게 느끼는지 분석 가능<br>
+    <img src="https://lh3.googleusercontent.com/2Aw2EwfSMWGmXoIQpmptoJeS9yZULKCWWBs-u1QkfcvX3jk0_usSPM7W8TWSEOeU-ZRngcbR2FDg-0nFORRcN2VTymorXPG0trZhqTZ5CuiuuUuol5aUEB0rT51GWlQbV2tH3fNP">
+  - 레스토랑, 영화 리뷰: 사람들이 열광하는 부분 실망하는 부분 분석<br>
+    <img src="https://lh3.googleusercontent.com/sLstr2VIQrwFR2Q-uCH9bjfs298yTOgBAGxzgXdOGT62_E1nFkXQyLf4GEmv8fA5KFjJqGt3mk4bmJ0JEt_St1cp6BRshptB0eXczfzaylNrW5oYWo-Nnzm0cThjRxXolneF2PDo">
+  - 소셜 미디어: 회사, 정치인 등 Hashtag에 대한 감성분석 + 블로그 댓글 분석으로 타겟 방문자의 감성 분석<br>
+    <img src="https://lh5.googleusercontent.com/YPegIhOaJK9HTUpslnfhIlYnI-2KJ_ll2W2vmfUYfcxtjBsOjczACMRMQbRWxDfL5OdT70Wu9OH53BWjWVYFPAwGIYbVhL9uwVg12KcJlB0GmMC-zyd4qOOO4nyvjRMnVFwooKC0"><img src="https://lh6.googleusercontent.com/3s394t1Y4qu3PiTvoUzjbUcrf9WWTVFabr6N2c6j8_P8GXRY3Gw-2xa1gxOFAsp25fcy-_zgVH3Bn0QnfLqfl-mA0l0PcXFRYICbZ_UdkGYkJHJvkcYcLGi1BC7Cvck1pgp4xBtm"><br>
+  - 콜센터 통화내역: 고객이 선호하거나 불만을 가지는 토픽에 대한 분석<br>
+    <img src="https://lh3.googleusercontent.com/_C6pM-zeffiek-XyvagoaUZJEbXO0cwK8AYdR23xjEsY_5aZGu5ymvkIMK0VJ5t424sNlYDBDHcKtHBzgVbTTdHcUT_sPWZI6Z_1YADU0s0wTKOGhkz3JiM9sYNwQoK4wdJzlxj8">
+  
+    
+
+
+
 ## turicreate algorithm application in social network app
 
 Recommender
