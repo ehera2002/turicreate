@@ -30,6 +30,10 @@ turicreate 사용법 및 기능 설명
 그림 분류<br>
 애플 펜슬, 마우스, 터치 인풋으로 주어진 그림에 대해 미리 설정한 클래스로 데이터를 분류할 수 있음<br>
 <img src="https://lh5.googleusercontent.com/lvG7O-Ogal-aFDxwrUakIgJH3oME5NQhfuKF7n3V1ANUDzXMcWJrVuvey_HCDA9uZ2tqu2xkGGMBmH3DHfHqkrojXQXT2qzOls_GE3XPd8tV5DPhI43QT8jDJ-ThcbBpfjVaizwr">
+
+이미지 유사도<br>
+feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 분류와 달리 모델링을 위해서 이미지 라벨링이 필요 없어 더욱 쉽게 처리 가능<br>
+<img src='https://lh5.googleusercontent.com/-sdJYIE0PBOrweL-DG3WOUzFC65qFDOGzDYJeo9ervzB5cvdVl2158d6UtvqD0EjNS-reKDzdPonjqzqo7RzvZ2TbVkAJL2gWEq5swA9tyd98LVYNyq2kbAgy9SKx7kAkwEs55_9'>
 쿼리로 아래의 이미지 추출<br>
 <img src="https://lh5.googleusercontent.com/GLpmJro4uMLY4MijMiR9T_jz0tgGDmuH8RxNSVdRFAZKBsf9psOfJLMjl7EibVQSbNXOPJvzKe0I_E-_9mQT1CQ35Djk-FmQYq23ngnteQqCHPUTMpG7HoCUFEczoEHVzNR3DHHI">
 
