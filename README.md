@@ -17,31 +17,31 @@ turicreate 사용법 및 기능 설명
 
 ## turicreate task focused toolkit 
 
-추천시스템<br>
+- 추천시스템<br>
 유저에게 개인화 추천을 제공할 수 있음, 과거 행동(interaction) 데이터를 통해서 모델링하고 모델을 활용할 수 있음<br>
 <img src="https://lh5.googleusercontent.com/t1prsTMIOdSbVkByBOE6hZCb_TGl1MHp5YrdERASFAuh4y-7fy7GupYw6NHJlyxyswXx68kf4n3IYlFC5ILiAKXepBEmAIRSEH3msVtHXKfNirk6dWnF-MA0f459evSC4U4YrDPt"><br>
 [* 출처 및 참고자료](https://davinci-ai.tistory.com/12)
 
-**Image**
-이미지 분류<br>
+**Image** <br>
+- 이미지 분류<br>
 이미지를 기존에 정의한 몇몇의 라벨에 할당하는 작업, turicreate에서 쉽고 강력한 모델을 제공<br>
 <img src="https://lh6.googleusercontent.com/-q-IUA_QiOVBliMtAOmlIB5lE9NYLohlCCFTsHwBZ2gJD0mFU8qZKDzmisfo0ItEstQ92cjldGqsJojPeaZq1Wtp2w2x7oqPELtSaYEFwMVlENRRTSNURO-ze9qFRrSDh9Oz2crT"><br>
 
-그림 분류<br>
+- 그림 분류<br>
 애플 펜슬, 마우스, 터치 인풋으로 주어진 그림에 대해 미리 설정한 클래스로 데이터를 분류할 수 있음<br>
 <img src="https://lh5.googleusercontent.com/lvG7O-Ogal-aFDxwrUakIgJH3oME5NQhfuKF7n3V1ANUDzXMcWJrVuvey_HCDA9uZ2tqu2xkGGMBmH3DHfHqkrojXQXT2qzOls_GE3XPd8tV5DPhI43QT8jDJ-ThcbBpfjVaizwr">
 
-이미지 유사도<br>
+- 이미지 유사도<br>
 feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 분류와 달리 모델링을 위해서 이미지 라벨링이 필요 없어 더욱 쉽게 처리 가능<br>
 <img src='https://lh5.googleusercontent.com/-sdJYIE0PBOrweL-DG3WOUzFC65qFDOGzDYJeo9ervzB5cvdVl2158d6UtvqD0EjNS-reKDzdPonjqzqo7RzvZ2TbVkAJL2gWEq5swA9tyd98LVYNyq2kbAgy9SKx7kAkwEs55_9'>
 쿼리로 아래의 이미지 추출<br>
 <img src="https://lh5.googleusercontent.com/GLpmJro4uMLY4MijMiR9T_jz0tgGDmuH8RxNSVdRFAZKBsf9psOfJLMjl7EibVQSbNXOPJvzKe0I_E-_9mQT1CQ35Djk-FmQYq23ngnteQqCHPUTMpG7HoCUFEczoEHVzNR3DHHI">
 
-물체 탐지<br>
+- 물체 탐지<br>
 물체를 분류하고 위치를 찾는 작업, 주어진 이미지에 박스 바운딩과 물체 클래스를 제시<br>
 <img src="https://lh6.googleusercontent.com/l1EP49zjVCHZYhzTDUj_6gBf3JHQ_FF2W4p72pBz7kVwQyExsJEQvmYLOXSy3yGey1JyiE4llaWaD4ZKSQv6a58OQBcwS_a9TT8_03I6Au5AHzaEnM2pOPfd8LCbLU-T8TkgJQbQ">
 
-원샷 물체 탐지<br>
+- 원샷 물체 탐지<br>
 클래스별 적은 양의 데이터로 플랜카드, 표지판, 로고 등 2차원 이미지에 대해 빠른 성능 보여줄 수 있는 물체 탐지<br>
 \* 얼굴, 동물, 차와 같은 3차원 데이터는 위의 물체 탐지가 더욱 적합
 <img src="https://lh3.googleusercontent.com/ncnjglHxfuvBw2xIWDlwx4F2UEuN0NF5Iezi8gSce8fNEqhQ4cUXJrXYKAgrhwLL1KPuC1jGf7aSAAjc1_CdSBh6_nx7Pp98iOu9YmjEK-EZr2KiWag4fwSHKStLAxQIjzipvKo_"><br>
@@ -55,7 +55,7 @@ feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 
 
 [* 출처 및 참고자료](https://mickael-k.tistory.com/24)
 
-스타일 변경<br>
+- 스타일 변경<br>
 스타일 이미지를 구성하고 새로운 이미지가 주어졌을 때 새 이미지의 컨텐츠는 보존하면서 스타일을 변환시켜주는 작업<br>
 
 스타일 이미지와 컨텐츠 이미지<br>
