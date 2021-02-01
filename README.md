@@ -46,7 +46,7 @@ feature 분석을 통해 유사한 이미지를 찾는 것이 목적, 이미지 
 \* 얼굴, 동물, 차와 같은 3차원 데이터는 위의 물체 탐지가 더욱 적합
 <img src="https://lh3.googleusercontent.com/ncnjglHxfuvBw2xIWDlwx4F2UEuN0NF5Iezi8gSce8fNEqhQ4cUXJrXYKAgrhwLL1KPuC1jGf7aSAAjc1_CdSBh6_nx7Pp98iOu9YmjEK-EZr2KiWag4fwSHKStLAxQIjzipvKo_"><br>
 
-\비교
+\* 비교
 
 |   |원샷 물체 탐지|투샷(위치, 분류) 물체 탐지|
 |---|---|---|
