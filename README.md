@@ -1,7 +1,20 @@
 # turicreate
 turicreate 사용법 및 기능 설명
 
-## turicreate 설치 for Ubuntu (turicreate GPU version only support on Ubuntu and macOS)
+## turicreate GPU
+- turicreate supports GPU versions on Ubuntu and macOS
+
+사용법<br>
+\# Use all GPUs(default)<br>
+turicreate.config.set_num_gpus(-1)<br>
+
+\# Use only 1 GPU<br>
+turicreate.config.set_num_gpus(1)<br>
+
+\# Use CPU<br>
+turicreate.config.set_num_gpus(0)<br>
+
+
 
 ## turicreate 설치 for Windows
 [WSL, Linux distro을 이용한 turicreate 설치](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
