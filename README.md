@@ -1,6 +1,8 @@
 # turicreate
 turicreate 사용법 및 기능 설명
 
+## turicreate 설치 for Ubuntu (turicreate GPU version only support on Ubuntu and macOS)
+
 ## turicreate 설치 for Windows
 [WSL, Linux distro을 이용한 turicreate 설치](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
 + [GUI를 이용한 WSL, distro 설치](https://webdir.tistory.com/541)
