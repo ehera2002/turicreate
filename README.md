@@ -107,7 +107,7 @@ pip install turicreate
 - [MS wsl 설치 가이드](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ## GPU 환경 설정 for turicreate
-- turicreate GPU는 tensorflow를 이용하기 때문에, CUDA, CuDNN을 종속성에 맞춰 설치해야함
+- turicreate GPU는 tensorflow를 이용하기 때문에, CUDA, CuDNN과 함께 종속성에 맞춰 설치해야함
 
 
 ## turicreate GPU
