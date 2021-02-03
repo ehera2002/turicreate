@@ -3,8 +3,6 @@ turicreate 사용법 및 기능 설명
 
 ## turicreate 설치 for Ubuntu
 
-ref: [**Linux Installation Instructions**](https://github.com/apple/turicreate/blob/master/LINUX_INSTALL.md#ubuntu--1710)
-
 The minimum requirements are:
  - python 2.7, 3.5, or 3.6 (support for 3.7 pending #788)
  - glibc >= 2.10 (Centos >= 6, Ubuntu >= 9.10, or equivalent)
@@ -91,6 +89,8 @@ Install turicreate
 pip install --upgrade pip
 pip install turicreate
 ```
+
+\* ref: [**Linux Installation Instructions**](https://github.com/apple/turicreate/blob/master/LINUX_INSTALL.md#ubuntu--1710)
 
 ## turicreate 설치 for Windows
 [WSL, Linux distro을 이용한 turicreate 설치](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
