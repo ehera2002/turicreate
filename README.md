@@ -3,7 +3,96 @@ turicreate 사용법 및 기능 설명
 
 ## turicreate 설치 for Ubuntu
 
-[**Linux Installation Instructions**](https://github.com/apple/turicreate/blob/master/LINUX_INSTALL.md#ubuntu--1710)
+ref: [**Linux Installation Instructions**](https://github.com/apple/turicreate/blob/master/LINUX_INSTALL.md#ubuntu--1710)
+
+The minimum requirements are:
+ - python 2.7, 3.5, or 3.6 (support for 3.7 pending #788)
+ - glibc >= 2.10 (Centos >= 6, Ubuntu >= 9.10, or equivalent)
+ - For Neural Network support, glibc >= 2.17 is needed (Centos >= 7, Ubuntu >= 13.04, or equivalent)
+ - libstdc++ >= 6.0.19 (Ubuntu >= 14.04 or equivalent, or GCC 4.8.3 or later)
+ - libgconf-2-4 (on Ubuntu 17.10 and later)
+
+## Ubuntu
+
+### Ubuntu >= 17.10
+
+Follow the instructions for Ubuntu >= 14.04, but also install `libgconf-2-4`. This was previously included in desktop Ubuntu distributions but now needs to be installed separately starting with 17.10.
+
+### Ubuntu >= 14.04
+On recent versions of Ubuntu, we just need a few dependencies
+
+```shell
+sudo apt-get install -y libstdc++6 python-setuptools
+sudo easy_install pip
+sudo pip install virtualenv
+```
+
+To avoid making system changes, we are going to do everything in a virtualenv
+
+```shell
+cd $HOME
+virtualenv venv
+```
+
+Activate the virtualenv
+
+```shell
+cd venv
+source bin/activate
+```
+Install turicreate
+
+```shell
+pip install --upgrade pip
+pip install turicreate
+```
+
+### Ubuntu < 14.04
+(Tested on Ubuntu 12.04)
+
+Compiling gcc from source is necessary here.
+You can download any version of gcc >= 5 from https://gcc.gnu.org
+
+```shell
+sudo apt-get install gcc g++
+
+cd ~
+wget https://mirrors-usa.go-parts.com/gcc/releases/gcc-7.2.0/gcc-7.2.0.tar.gz
+tar -xzvf gcc-7.2.0.tar.gz
+cd gcc-7.2.0
+contrib/download_prerequisites
+./configure --disable-multilib --enable-languages=c,c++ --disable-bootstrap
+make
+sudo make install
+```
+
+
+Every time you open a new bash session, you should run the following commands. You could put them in `~/.bashrc` for convenience.
+
+```shell
+export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH
+```
+
+To avoid making system changes, we are going to do everything in a virtualenv
+
+```shell
+cd $HOME
+virtualenv venv
+```
+
+Activate the virtualenv
+
+```shell
+cd venv
+source bin/activate
+```
+
+Install turicreate
+
+```shell
+pip install --upgrade pip
+pip install turicreate
+```
 
 ## turicreate 설치 for Windows
 [WSL, Linux distro을 이용한 turicreate 설치](https://blog.usejournal.com/installing-turicreate-on-windows-10-534e147a4792)
