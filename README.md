@@ -12,8 +12,6 @@ The minimum requirements are:
  - libstdc++ >= 6.0.19 (Ubuntu >= 14.04 or equivalent, or GCC 4.8.3 or later)
  - libgconf-2-4 (on Ubuntu 17.10 and later)
 
-## Ubuntu
-
 ### Ubuntu >= 17.10
 
 Follow the instructions for Ubuntu >= 14.04, but also install `libgconf-2-4`. This was previously included in desktop Ubuntu distributions but now needs to be installed separately starting with 17.10.
