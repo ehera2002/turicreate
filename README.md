@@ -3,6 +3,9 @@ turicreate 사용법 및 기능 설명
 
 ## turicreate 설치 for Ubuntu
 
+### Ubuntu 18.04 설치
+**CUDA, CuDNN 설치**
+
 The minimum requirements are:
  - python 2.7, 3.5, or 3.6 (support for 3.7 pending #788)
  - glibc >= 2.10 (Centos >= 6, Ubuntu >= 9.10, or equivalent)
